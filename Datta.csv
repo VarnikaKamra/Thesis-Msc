@@ -1,0 +1,200 @@
+Skip connection,Connection with every layer,Sequential connection,Concat,Add,Parallel connection,"Conv layer in fixed sequence 1x1,3x3,1x1","Conv layer with combination of 1x1,3x3","Any Combination of 1x1,3x3,5x5 conv layers",Fixed conv layers,Split,Clip,Label
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+No,No,Yes,No,Yes,Yes,No,Yes,No,Yes,No,No,Basic Residual block
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Bottleneck residual block
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+No,No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,Inception
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+No,No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,Inception
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Basic Residual block
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Aggregated Residual Transformation block 
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Inception
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,ResNest
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Squeeze and excite 
+No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,SqueezeNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No,ShuffleNet
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,ESP Net
+No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Bottleneck residual block
+No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Dense Block
