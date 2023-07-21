@@ -1,45 +1,0 @@
-onnx-extractor:Œ
-„
-resnetv15_relu0_fwdresnetv15_pool0_fwdresnetv15_pool0_fwd"MaxPool*
-kernel_shape@@ *
-pads@@@@ *
-strides@@ 
-Ð
-resnetv15_pool0_fwd
-resnetv15_stage1_conv0_weightresnetv15_stage1_conv0_fwdresnetv15_stage1_conv0_fwd"Conv*
-	dilations@@ *
-group *
-kernel_shape@@ *
-pads@@@@ *
-strides@@ 
-Á
-resnetv15_stage1_conv0_fwd
-!resnetv15_stage1_batchnorm0_gamma
- resnetv15_stage1_batchnorm0_beta
-(resnetv15_stage1_batchnorm0_running_mean
-'resnetv15_stage1_batchnorm0_running_varresnetv15_stage1_batchnorm0_fwdresnetv15_stage1_batchnorm0_fwd"BatchNormalization*
-epsilon¬Å'7 *
-momentumfff? *
-spatial 
-_
-resnetv15_stage1_batchnorm0_fwdresnetv15_stage1_relu0_fwdresnetv15_stage1_relu0_fwd"Relu
-×
-resnetv15_stage1_relu0_fwd
-resnetv15_stage1_conv1_weightresnetv15_stage1_conv1_fwdresnetv15_stage1_conv1_fwd"Conv*
-	dilations@@ *
-group *
-kernel_shape@@ *
-pads@@@@ *
-strides@@ 
-Á
-resnetv15_stage1_conv1_fwd
-!resnetv15_stage1_batchnorm1_gamma
- resnetv15_stage1_batchnorm1_beta
-(resnetv15_stage1_batchnorm1_running_mean
-'resnetv15_stage1_batchnorm1_running_varresnetv15_stage1_batchnorm1_fwdresnetv15_stage1_batchnorm1_fwd"BatchNormalization*
-epsilon¬Å'7 *
-momentumfff? *
-spatial 
-m
-resnetv15_pool0_fwd
-resnetv15_stage1_batchnorm1_fwdresnetv15_stage1__plus0resnetv15_stage1__plus0"AddB
